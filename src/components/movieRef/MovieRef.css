@@ -1,0 +1,98 @@
+.movie-ref{
+    width: 920px;
+    height: 40px;
+    background-color: #f1f1f1;
+    position: absolute;
+    right: 7.5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+    border-radius: 5px;
+    z-index: 2;
+    transition: all 0.7s;
+}
+.display-movie-ref{
+    transform: translate(120%);
+}
+.movieRef-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.movieRef-title{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.movieRef-title input{
+    color: #FB0A72;
+    font-size: 16px;
+    height: 30px;
+    width: 200px;
+    padding-left: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #dad8c9;
+    outline: none;
+}
+.movieRef-poster{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.poster-choice{
+    font-size: 12px;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border: 1px dashed #FB0A72;
+    border-radius: 5px;
+}
+.poster-choice label{
+    cursor: pointer;
+}
+.movieRef-url{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.movieRef-url input{
+    width: 220px;
+    height: 30px;
+    padding: 0 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #dad8c9;
+    outline: none;
+}
+.movieRef-right{
+    display: flex;
+    align-items: center;
+}
+.btn-close{
+    font-size: 24px;
+    padding: 2px;
+    margin-left: 1rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.movieRef-btn-add{
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    padding: 0.4rem 1rem;
+    background-color: #FB0A72;
+    cursor: pointer;
+}
+
+@media  screen and (max-width:576px) {
+    
+}
